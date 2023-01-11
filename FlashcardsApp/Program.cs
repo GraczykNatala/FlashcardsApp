@@ -1,5 +1,4 @@
-﻿using System;
-namespace FlashcardsApp;
+﻿namespace FlashcardsApp;
 
 class Program
 {
