@@ -1,6 +1,6 @@
 namespace FlashcardsApp;
 
- class Flashcard
+public class Flashcard
 {
     public string Text { get; set; }
     public string Meaning { get; set; }
@@ -18,7 +18,7 @@ namespace FlashcardsApp;
         return Text + "-" + Meaning;
     }
 
-    Flashcard createFlashcard()
+    public Flashcard createFlashcard()
     {
         Console.WriteLine("Podaj słowo");
         string text = Console.ReadLine();
