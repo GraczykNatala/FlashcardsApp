@@ -15,7 +15,7 @@ public class FlashcardSet
         this.ListOfFlashcards = listOfFlashcards;
     }
 
-     public void createSet()
+     public FlashcardSet createSet()
     {
         Console.WriteLine("Podaj nazwę nowego zestawu");
         string name = Console.ReadLine();
@@ -32,7 +32,8 @@ public class FlashcardSet
             Flashcard fc = new Flashcard();
             NewList.Add(fc.createFlashcard());
         }
-        
+
+        return NewFcSet;
         
     }
 }

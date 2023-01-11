@@ -7,6 +7,7 @@ class Program
     {
         Console.WriteLine("Hello World!");
         FlashcardSet fcs = new FlashcardSet();
-        fcs.createSet();
+        List<FlashcardSet> flashcardSets = new List<FlashcardSet>();
+        flashcardSets.Add(fcs.createSet());
     }
 }
