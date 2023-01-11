@@ -1,0 +1,15 @@
+C:\Users\Natala\RiderProjects\FlashcardsApp\FlashcardsApp\bin\Debug\net7.0\FlashcardsApp.exe
+C:\Users\Natala\RiderProjects\FlashcardsApp\FlashcardsApp\bin\Debug\net7.0\FlashcardsApp.deps.json
+C:\Users\Natala\RiderProjects\FlashcardsApp\FlashcardsApp\bin\Debug\net7.0\FlashcardsApp.runtimeconfig.json
+C:\Users\Natala\RiderProjects\FlashcardsApp\FlashcardsApp\bin\Debug\net7.0\FlashcardsApp.dll
+C:\Users\Natala\RiderProjects\FlashcardsApp\FlashcardsApp\bin\Debug\net7.0\FlashcardsApp.pdb
+C:\Users\Natala\RiderProjects\FlashcardsApp\FlashcardsApp\obj\Debug\net7.0\FlashcardsApp.csproj.AssemblyReference.cache
+C:\Users\Natala\RiderProjects\FlashcardsApp\FlashcardsApp\obj\Debug\net7.0\FlashcardsApp.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Natala\RiderProjects\FlashcardsApp\FlashcardsApp\obj\Debug\net7.0\FlashcardsApp.AssemblyInfoInputs.cache
+C:\Users\Natala\RiderProjects\FlashcardsApp\FlashcardsApp\obj\Debug\net7.0\FlashcardsApp.AssemblyInfo.cs
+C:\Users\Natala\RiderProjects\FlashcardsApp\FlashcardsApp\obj\Debug\net7.0\FlashcardsApp.csproj.CoreCompileInputs.cache
+C:\Users\Natala\RiderProjects\FlashcardsApp\FlashcardsApp\obj\Debug\net7.0\FlashcardsApp.dll
+C:\Users\Natala\RiderProjects\FlashcardsApp\FlashcardsApp\obj\Debug\net7.0\refint\FlashcardsApp.dll
+C:\Users\Natala\RiderProjects\FlashcardsApp\FlashcardsApp\obj\Debug\net7.0\FlashcardsApp.pdb
+C:\Users\Natala\RiderProjects\FlashcardsApp\FlashcardsApp\obj\Debug\net7.0\FlashcardsApp.genruntimeconfig.cache
+C:\Users\Natala\RiderProjects\FlashcardsApp\FlashcardsApp\obj\Debug\net7.0\ref\FlashcardsApp.dll
