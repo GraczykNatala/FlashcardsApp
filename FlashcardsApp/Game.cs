@@ -4,11 +4,9 @@ public abstract class Game
 {
     public Random Rand = new Random();
 
-    void RunGame(List<Flashcard> n)
-    {
-    }
+    public abstract void RunGame(List<Flashcard> n);
 
-    Boolean CheckAnswer(string userAnswer, string answer, bool streak)
+    public virtual Boolean CheckAnswer(string userAnswer, string answer, bool streak)
     {
         if (userAnswer.Equals(answer))
         {
@@ -23,7 +21,7 @@ public abstract class Game
         return streak;
     }
 
-    Flashcard CurrentQuestion(List<Flashcard> n)
+   public virtual Flashcard CurrentQuestion(List<Flashcard> n)
     {
         Flashcard question = n[Rand.Next(n.Count)];
         string definition = question.Text;
