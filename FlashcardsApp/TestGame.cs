@@ -22,8 +22,8 @@ public class TestGame : Game
                 }
             } while (answers.Count <= 3);
 
-            //* sprawdzić czy shuffle działa poprawnie
-             answers.OrderBy(item => Rand.Next());
+            
+             answers = answers.OrderBy(x => Rand.Next()).ToList();
              int answerNum = answers.IndexOf(answer) ;
             
              for (int j = 1; j < answers.Count()+1; j++) {
