@@ -2,7 +2,7 @@
 
 using FlashcardsApp;
 
-Console.WriteLine("Hello, World!");
+
 List<FlashcardSet> flashcardSets = new List<FlashcardSet>();
 FlashcardSet testFC = new FlashcardSet("test",createExampleSet());
 flashcardSets.Add(testFC);
