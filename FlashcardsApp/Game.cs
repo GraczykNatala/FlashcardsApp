@@ -15,6 +15,7 @@ public abstract class Game
         else
         {
             Console.WriteLine("przegrana :(");
+            Console.WriteLine("poprawna odpowiedź to" + answer);
             streak = false;
         }
 
