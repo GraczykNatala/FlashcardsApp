@@ -8,19 +8,19 @@
     "net7.0": []
   },
   "packageFolders": {
-    "C:\\Users\\Natala\\.nuget\\packages\\": {}
+    "C:\\Users\\niezn\\.nuget\\packages\\": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\Natala\\RiderProjects\\FlashcardsApp\\FlashcardsApp\\FlashcardsApp.csproj",
+      "projectUniqueName": "C:\\Users\\niezn\\RiderProjects\\FlashcardsApp\\FlashcardsApp\\FlashcardsApp.csproj",
       "projectName": "FlashcardsApp",
-      "projectPath": "C:\\Users\\Natala\\RiderProjects\\FlashcardsApp\\FlashcardsApp\\FlashcardsApp.csproj",
-      "packagesPath": "C:\\Users\\Natala\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\Natala\\RiderProjects\\FlashcardsApp\\FlashcardsApp\\obj\\",
+      "projectPath": "C:\\Users\\niezn\\RiderProjects\\FlashcardsApp\\FlashcardsApp\\FlashcardsApp.csproj",
+      "packagesPath": "C:\\Users\\niezn\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\niezn\\RiderProjects\\FlashcardsApp\\FlashcardsApp\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
-        "C:\\Users\\Natala\\AppData\\Roaming\\NuGet\\NuGet.Config"
+        "C:\\Users\\niezn\\AppData\\Roaming\\NuGet\\NuGet.Config"
       ],
       "originalTargetFrameworks": [
         "net7.0"
@@ -59,7 +59,7 @@
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "C:\\Users\\Natala\\.dotnet\\sdk\\7.0.101\\RuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Users\\niezn\\.dotnet\\sdk\\7.0.101\\RuntimeIdentifierGraph.json"
       }
     }
   }
