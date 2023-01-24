@@ -1,7 +1,8 @@
 ﻿// See https://aka.ms/new-console-template for more information
 
 using FlashcardsApp;
-
+using System.Xml.Serialization;
+using System.IO;
 
 List<FlashcardSet> flashcardSets = new List<FlashcardSet>();
 FlashcardSet testFC = new FlashcardSet("test",createExampleSet());
@@ -19,12 +20,13 @@ void menu()
     {
         FlashcardSet fcs = new FlashcardSet().createSet();
         flashcardSets.Add(fcs);
+
         menu();
     }
     else if (choice == 2)
     {
         showAllSets();
-        Console.WriteLine("Wybierz zestaw po numerze od 0");
+        Console.WriteLine("Wybierz zestaw po numerze");
         String chosenSetString = Console.ReadLine();
         int chosenSetNum = int.Parse(chosenSetString);
         FlashcardSet currentSet = flashcardSets[chosenSetNum];
@@ -61,7 +63,7 @@ void showAllSets()
 {
     for (int i = 0; i < flashcardSets.Count; i++)
     {
-        Console.WriteLine(flashcardSets[i].Name);
+        Console.WriteLine( i + ". " + flashcardSets[i].Name);
     }
 }
 
