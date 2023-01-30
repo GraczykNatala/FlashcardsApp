@@ -4,8 +4,7 @@ using FlashcardsApp;
 
 
 List<FlashcardSet> flashcardSets = new List<FlashcardSet>();
-FlashcardSet testFC = new FlashcardSet("test",createExampleSet());
-flashcardSets.Add(testFC);
+
 menu();
 
 
@@ -77,27 +76,3 @@ void showGamesMenu()
     Console.WriteLine( Enum.GetName(GamesMenu.ANAGRAM) + " - 2 ");
     Console.WriteLine( Enum.GetName(GamesMenu.WPISYWANIE_POPRAWNEJ_ODPOWIEDZI) + " - 3 ");
 }
- List<Flashcard> createExampleSet() {
-
-    Flashcard t1 = new Flashcard("Take off", "Startować");
-    Flashcard t2 = new Flashcard("Aisle seat", "Miejsce od środka");
-    Flashcard t3 = new Flashcard("Hand luggage", "Bagaż podręczny");
-    Flashcard t4 = new Flashcard("Fasten the belt", "zapiąc pasy");
-    Flashcard t5 = new Flashcard("Duty-free shop", "sklep bezcłowy");
-    Flashcard t6 = new Flashcard("Board the plane", "Wejść na pokład");
-    Flashcard t7 = new Flashcard("Gate", "Bramka");
-    Flashcard t8 = new Flashcard("Departures board", "Tablica odlotów");
-    Flashcard t9 = new Flashcard("Check in", "zameldować się");
-    List<Flashcard> testFC = new List<Flashcard>();
-    testFC.Add(t1);
-    testFC.Add(t2);
-    testFC.Add(t3);
-    testFC.Add(t4);
-    testFC.Add(t5);
-    testFC.Add(t6);
-    testFC.Add(t7);
-    testFC.Add(t8);
-    testFC.Add(t9);
-    return testFC;
-    
- }
